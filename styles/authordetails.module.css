@@ -1,0 +1,27 @@
+.authordetwrapper{
+margin-Top:3rem;
+
+}
+
+.authortitle{
+    font-size: 3rem;
+    text-align: center;
+    color: #ef6a47;
+    font-weight: bold;
+
+}
+
+.authorname{
+    font-size: 2rem;
+    text-align: center;
+    color:gray;
+    font-weight: bold;
+    margin-top: -1.5rem;
+}
+
+.description{
+    margin-top:3rem;
+    font-size: 1.3rem;
+    text-align:center;
+    
+}

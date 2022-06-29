@@ -1,0 +1,74 @@
+.blogdetailswrapper{
+
+margin:5rem;
+margin-top: 17rem;
+
+}
+.blogtitle{
+font-size: 3.8rem;
+    text-align: center;
+}
+
+.blogauthordate{
+    margin-top: -3rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.authorname{
+color:#ef6a47;
+font-weight: bold;
+}
+
+.imgwrapper{
+    text-align: center;
+    min-width: 225px;
+    min-height: 40px;
+    margin-top: 2rem;
+}
+
+.descwrapper{
+    margin-top:3rem;
+    font-size: 1.3rem;
+    text-align: justify;
+    
+}
+
+
+.desctitles{
+
+    font-size: 3rem;
+    text-align: center;
+    color:gray;
+    font-weight: bold;
+    margin-bottom: -0.5rem;
+
+}
+
+@media screen and (max-width: 1076px) {
+
+    .blogdetailswrapper{
+
+        margin:5rem;
+        margin-top: 15rem;
+        
+        }
+  }
+
+  @media screen and (max-width: 782px) {
+
+    .blogdetailswrapper{
+
+        margin-top: 8rem;
+        
+        }
+  }
+  
+  @media screen and (max-width: 782px) {
+
+    .blogdetailswrapper{
+        margin:2rem;
+        margin-top: 8rem;
+        
+        }
+  }

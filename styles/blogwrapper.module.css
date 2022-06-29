@@ -1,0 +1,13 @@
+.blogwrapper{
+    margin:5rem;
+margin-top: 12rem;
+
+}
+
+@media screen and (max-width: 782px) {
+    .blogwrapper{
+margin-top: 5rem;
+    }
+  }
+
+  

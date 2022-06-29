@@ -1,0 +1,28 @@
+.parent{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000;
+}
+
+
+.bigscreennav{
+     
+     display: block;
+}
+
+.smallscreennav{
+    display:none;
+}
+
+
+
+@media screen and (max-width: 782px) {
+    .bigscreennav{
+        display:none;
+    }
+    .smallscreennav{
+        display: block;
+    }
+  }

@@ -1,0 +1,22 @@
+
+.navlist{
+
+    list-style-type:none
+}
+
+
+.navlist li{
+
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    margin:2rem;
+    font-size: 1.1rem;
+    margin-left: -5px;
+}
+
+.navlist:first-child{
+
+margin-top: 10px;
+
+}

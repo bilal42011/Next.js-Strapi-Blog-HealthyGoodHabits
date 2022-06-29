@@ -1,0 +1,29 @@
+.navbar{
+font-family: 'Abel', sans-serif;
+height:85px;
+background-color:#ece7df;
+}
+
+.navbar a{
+    color:black;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+
+.sidebutton{
+    background-color: #607658;
+    color:white;
+    text-align: center;
+    font-size: 17px;
+    padding:6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    height:35px;
+    letter-spacing: 0.3rem;
+    font-weight: lighter;
+    }
+    
+.sidebutton:hover{
+    background-color:#ef6a47;
+}
+
