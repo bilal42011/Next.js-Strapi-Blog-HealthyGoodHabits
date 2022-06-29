@@ -24,7 +24,7 @@ return <div className={styles.blogdetailswrapper}>
     </p>
     
     <div className={styles.imgwrapper}>
-    <Image src={imageurl1} width="1000" height={1100}></Image>
+    <Image src={imageurl1} width="1000" height={1100} alt="blogtumbnail"></Image>
     </div>
     
     <div className={styles.descwrapper}>
@@ -32,7 +32,7 @@ return <div className={styles.blogdetailswrapper}>
     </div>
 
     <div className={styles.imgwrapper}>
-    <Image src={imageurl2} width="1000" height={1100}></Image>
+    <Image src={imageurl2} width="1000" height={1100} alt="blogdetailimage"></Image>
     </div>
     
     <div className={styles.descwrapper} style={{textAlign:"center"}}>

@@ -13,7 +13,7 @@ query: {id:blog.id, blogcategory,category: blogcategory } }}>
 
 <Grid container item xs={12} sm={6} md={4} lg={4} xl={4} justifyContent="center" sx={{cursor:"pointer"}}>
     <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
-    <Image layout="responsive" width="300" height="250" src={imageurl}></Image>
+    <Image layout="responsive" width="300" height="250" src={imageurl} alt="blogthumbnail"></Image>
     </Grid>
     <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
     <p className={styles.blogauthor}>{`Author: ${blog.attributes.author.name}`}</p>

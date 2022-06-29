@@ -15,6 +15,10 @@
     margin-left: -5px;
 }
 
+.navlist li a {
+    cursor:pointer;
+}
+
 .navlist:first-child{
 
 margin-top: 10px;

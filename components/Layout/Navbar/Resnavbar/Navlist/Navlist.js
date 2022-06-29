@@ -1,20 +1,42 @@
-import Link from "next/link";
-import { Grid, Input } from "@mui/material";
+import { Input } from "@mui/material";
+import Router from "next/router";
 import styles from "../../../../../styles/navlist.module.css";
 
 
-const Navlist=()=>{
+const Navlist=({changedrawer})=>{
+
+let clickhandler=(link)=>{
+changedrawer();
+Router.push(link);
+}
+
 return <> 
 <ul  className={styles.navlist}>
-<li><Link href="/">RECEPIES</Link></li>
-<li><Link href="/">NUTRITION</Link></li>
-<li><Link href="/">LIFESTYLES</Link></li>
-<li><Link href="/">WORKOUTS INDEX</Link></li>
-<li><Link href="/">.</Link></li>
-<li><Link href="/">ABOUT</Link></li>
-<li><Link href="/">CONTACT</Link></li>
-<li><Link href="/">PRESS</Link></li>
-<li><Link href="/">GOOD HEALTHY HABITS</Link></li>
+<li><a onClick={()=>{
+    return clickhandler("/");
+}}>RECEPIES</a></li>
+<li><a onClick={()=>{
+    return clickhandler("/");
+}}>NUTRITION</a></li>
+<li><a onClick={()=>{
+    return clickhandler("/");
+}}>LIFESTYLES</a></li>
+<li><a onClick={()=>{
+    return clickhandler("/");
+}}>WORKOUTS INDEX</a></li>
+<li>.</li>
+<li><a onClick={()=>{
+    return clickhandler("/");
+}}>ABOUT</a></li>
+<li><a onClick={()=>{
+    return clickhandler("/");
+}}>CONTACT</a></li>
+<li><a onClick={()=>{
+    return clickhandler("/");
+}}>PRESS</a></li>
+<li><a onClick={()=>{
+    return clickhandler("/");
+}}>GOOD HEALTHY HABITS</a></li>
  <li><Input placeholder="Search" disableUnderline fullWidth sx={{border:"1px solid #ef6a47 "}}/></li>
 </ul>
 </>
