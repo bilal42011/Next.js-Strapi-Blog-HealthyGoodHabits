@@ -5,7 +5,7 @@ const Blogs =({data})=>{
     
 return <div className={styles.blogwrapper}>
 {
-    data.map(blogs=><Blogsection sectiontitle={blogs.sectiontitle} data={blogs.data}/>)
+    data.map((blogs,ind)=><Blogsection sectiontitle={blogs.sectiontitle}  data={blogs.data} key={ind}/>)
 } 
 
 </div>

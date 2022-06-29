@@ -21,7 +21,7 @@ const Footer=()=>{
 return  <div className={styles.footerwrapper}>
    <Grid container sx={{width:"100%",textAlign:"center"}} justifyContent="center" alignContent="center" columnSpacing={5}>
     {
-        data.map(item=><Footeritem title={item.title} data={item.data} />)
+        data.map((item,ind)=><Footeritem title={item.title} data={item.data} key={ind} />)
     }
    </Grid>
     </div>

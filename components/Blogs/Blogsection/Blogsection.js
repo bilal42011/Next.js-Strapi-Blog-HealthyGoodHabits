@@ -10,7 +10,7 @@ const Blogsection=({sectiontitle,data})=>{
         </Grid>
         <Grid container item xs={12} sm={12} md={12} lg={12} xl={12} justifyContent="center" spacing={4}>
             {
-                data.map(blog=><Blog  blog={blog}/>)
+                data.map((blog,ind)=><Blog  blog={blog} key={ind}/>)
             }
             </Grid>
 </Grid>

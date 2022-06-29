@@ -11,7 +11,7 @@ return <Grid container item xs={6} sm={4} md={4} lg={2} xl={2} justifyContent="c
     </Link>
 </Grid>
 {
-data.map(item=><Footerlink name={item.name} link={item.link}/>)
+data.map((item,ind)=><Footerlink name={item.name} link={item.link} key={ind}/>)
 }
 </Grid>
 
